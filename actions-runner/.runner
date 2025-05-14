@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Build-Runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus2.actions.githubusercontent.com/UzPNcrtK0ywtdS0s0KckrJHEA1J2qeTWAO0JRg4NsJOyNOoz5i/",
+  "gitHubUrl": "https://github.com/Hiho-bot-cyber/code",
+  "workFolder": "_work"
+}
