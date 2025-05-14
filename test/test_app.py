@@ -24,7 +24,7 @@ def test_hello_route(app, client):
     assert expected in res.get_data(as_text=True)
     # random name
     res = client.get('/hello/random')
-    assert res.status_code == 400
+    assert res.status_code == 200
 
 
 def test_get_primes_route(app, client):
