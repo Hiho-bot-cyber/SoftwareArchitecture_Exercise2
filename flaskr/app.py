@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-mistake
 def index():
     return render_template("index.html")
 

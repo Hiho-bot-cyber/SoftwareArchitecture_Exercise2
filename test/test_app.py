@@ -3,7 +3,6 @@ from flaskr import random_name
 
 
 def test_index_route(app, client):
-    print("test_app wurde ausgeführt")
     res = client.get('/')
     assert res.status_code == 200
     expected = '<h2 class="text-center">flask example ci/cd</h2>'
@@ -25,7 +24,7 @@ def test_hello_route(app, client):
     assert expected in res.get_data(as_text=True)
     # random name
     res = client.get('/hello/random')
-    assert res.status_code == 200
+    assert res.status_code == 400
 
 
 def test_get_primes_route(app, client):
